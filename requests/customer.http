@@ -1,0 +1,23 @@
+POST http://localhost:8080/customer
+Content-Type: application/json
+
+{
+  "firstname": "Test",
+  "surname": "Test"
+}
+
+###
+PUT http://localhost:8080/customer
+Content-Type: application/json
+
+{
+  "id": 0,
+  "firstname": "Test",
+  "surname": "Test"
+}
+
+###
+DELETE http://localhost:8080/customer/0
+
+###
+GET http://localhost:8080/customer
